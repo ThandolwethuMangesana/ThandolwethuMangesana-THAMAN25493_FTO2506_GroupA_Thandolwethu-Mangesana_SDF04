@@ -81,4 +81,57 @@
         width: 200px;
       }
 
+/*ipad dimenionsions*/
+ @media (max-width: 768px) {
+      .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .newsletter input {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+      .newsletter button {
+        width: 100%;
+      }
+      .links {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
 
+/*iphone dimensions*/
+@media (max-width: 375px){
+    .footer {
+        padding: 20px;
+    }
+  }
+    .newsletter h2 {
+        font-size: 18px; /* Slightly smaller font size for smaller screens */
+  
+    }
+    
+    .newsletter input{
+      border: none; /* Removed border for a cleaner look */
+        padding: 8px; /* Reduced padding for smaller screens */
+        width: 70%; /* Adjusted input width for smaller screens */
+        margin-right: 0; /* Reduced margin for better fit */
+        margin-bottom: 3px; /* Added bottom margin for spacing */
+    }
+    
+    .newsletter button {
+      border: none;
+      border-radius: 3px; /* Reduced border radius for smaller screens */
+        padding: 8px 10px; /* Reduced padding for smaller screens */
+        background-color: #D06845; /* Changed to orangered for better visuality */
+        width: 20%; /* Wider input and button for better usability */
+        margin-right: 0; /* Removed right margin for better fit */
+    }
+    .links h3 {
+        font-size: 20px; /* Adjusted font size for better readability */
+    }
+    .logo {
+        width: 150px; /* Adjusted logo size for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+    }
