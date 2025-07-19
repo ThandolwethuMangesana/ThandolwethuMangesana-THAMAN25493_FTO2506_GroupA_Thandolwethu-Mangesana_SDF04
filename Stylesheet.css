@@ -1,0 +1,24 @@
+/*body layout*/
+body {
+    margin: 0;
+    /* Remove default margin */
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+    background-color: #659F91;
+    /* Set a background color */
+    color: #333;
+    /* Set a default text color */
+}
+
+/*fotter layout*/
+.footer {
+    padding: 40px 0;
+    /* Add padding to the footer */
+    background-color: #659F91;
+    /* Set a background color for the footer */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
