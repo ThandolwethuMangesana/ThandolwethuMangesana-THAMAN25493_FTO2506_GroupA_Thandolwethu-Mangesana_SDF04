@@ -1,24 +1,84 @@
-/*body layout*/
-body {
-    margin: 0;
-    /* Remove default margin */
-    font-family: Arial, sans-serif;
-    /* Set a default font */
-    background-color: #659F91;
-    /* Set a background color */
-    color: #333;
-    /* Set a default text color */
-}
+/*file: Stylesheet.css*/
 
-/*fotter layout*/
-.footer {
-    padding: 40px 0;
-    /* Add padding to the footer */
-    background-color: #659F91;
-    /* Set a background color for the footer */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    /* General Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    } 
+ 
+    /* Body Styles */
+ body {
+      margin-top: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #659F91;
+      color: #333;
+    }
 
-}
+    /*footer Styles*/
+    .footer {
+      padding: 40px;
+      background-color: #659F91; /* Changed to match body background */
+      color: #2b2b2b;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    /* Newsletter Section */
+    .newsletter {
+      flex: 1 1 300px; /*changed to flex for better responsiveness */
+      margin-bottom: 20px;
+    }
+    .newsletter h2 {
+      font-size: 20px; /* Adjusted font size for visual hierarchy */
+      margin-bottom: 10px;
+    }
+    .newsletter input {
+      padding: 10px;
+      width: 200px; /* adjusted width for better fit */
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px; /* added margin for spacing between input and button */
+    }
+    .newsletter button {
+      background-color: #D06845; /* Changed to orangered for better visuality */
+      border: none;/*removed border to make button cleaner */
+      padding: 10px 20px;/* increased padding to make button larger */
+      color: white; /* Changed element text color to white for contrast */
+      border-radius: 4px; /* added border radius for a round smooth look */
+      color: white;
+      font-weight: bold;
+      cursor: pointer;/* Added cursor pointer for better UX */
+    }
+
+  /*links section*/
+    .links  {
+      flex: 1 1 150px;
+    }
+    .links  h3 {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .links  ul {
+      list-style: none;
+      padding: 0;
+    }
+    .links li {
+      margin-bottom: 8px;
+    }
+
+  /*divider layout*/
+    .divider {
+      width: 100%;
+      height: 1.5px; /*changed to 1.5px for a thin line*/
+      background-color: #996e50;
+      margin: 30px 0;
+    }
+
+     img {
+        width: 200px;
+      }
+
+
