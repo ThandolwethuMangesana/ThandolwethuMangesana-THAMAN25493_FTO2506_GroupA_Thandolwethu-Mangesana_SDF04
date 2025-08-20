@@ -122,7 +122,7 @@
     
     .newsletter button {
       border: none;
-      border-radius: 3px; /* Reduced border radius for smaller screens */
+      border-radius: 5px; /* Reduced border radius for smaller screens */
         padding: 8px 10px; /* Reduced padding for smaller screens */
         background-color: #D06845; /* Changed to orangered for better visuality */
         width: 20%; /* Wider input and button for better usability */
